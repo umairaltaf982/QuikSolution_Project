@@ -128,25 +128,22 @@ table {
 
 
 
-
-
-
-
 .head {
     background-color: chartreuse;
     height: 50px;
 }
 
 #menuImg {
-    width: 40px;
-    margin: 7px 7px 3px 20px;
+    width: 2%;
+    margin: 1% 0% 1% 2%;
     float: left;
     cursor: pointer;
 }
 
 #h1Heading {
     float: left;
-    margin: 10px 7px 3px 20px;
+    margin-top: 0.7%;
+    margin-left: 2%;
     font-size: xx-large;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -156,8 +153,8 @@ table {
 #notificationImg {
     float: right;
     width: 30px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 2%;
+    margin-top: 0.7%;
     cursor: pointer;
 }
 
@@ -168,8 +165,8 @@ table {
 #profileImg {
     float: right;
     width: 33px;
-    margin-right: 20px;
-    margin-top: 9px;
+    margin-right: 2%;
+    margin-top: 0.6%;
     cursor: pointer;
 }
 
@@ -179,7 +176,7 @@ table {
 
 #searchTopic {
     float: left;
-    margin: 13px 0px 10px 0px;
+    margin-top: 1%;
     width: 18%;
     border-radius: 8px;
     border-color: rgb(157, 255, 59);
@@ -196,8 +193,266 @@ table {
 #searchImg {
     float: left;
     width: 25px;
-    margin-right: 5px;
-    margin-top: 14px;
+    margin-right: 0.7%;
+    margin-top: 1%;
     margin-left: 40%;
     cursor: pointer;
+}
+
+#menuBar {
+    border: 3px solid rebeccapurple;
+    background-color: aquamarine;
+    width: 15%;
+    float: left;
+    padding: 10px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+#menuBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menuBar li {
+    margin-bottom: 10px;
+    font-size: large;
+    padding: 5px;
+}
+
+#menuBar a {
+    text-decoration: none;
+    color: #333;
+    height: 50%;
+}
+
+#menuBar li:hover {
+    background-color: #f0f0f0;
+    color: #666;
+    cursor: pointer;
+}
+
+#questionBox {
+    border: 3px solid rgb(255, 0, 0);
+    float: left;
+    width: 55%;
+    height: 180px;
+}
+
+#dashboard {
+    border: 3px solid rgb(255, 247, 0);
+    float: left;
+    width: 55%;
+    height: 334px;
+}
+
+#rightSideBar {
+    border: 3px solid rgb(51, 0, 255);
+    float: right;
+    width: 26.9%;
+    height: 520px;
+}
+
+#h1Menu {
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    font-size: x-large;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menuImg {
+    width: 25px;
+    margin-right: 10px;
+
+}
+
+#menuBar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBarBtn {
+    display: flex;
+    width: 60%;
+    font-size: larger;
+    align-items: center;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-left: 15%;
+    padding-right: 60%;
+}
+
+#menuSettingBtn {
+    margin-top: 60%;
+    margin-bottom: 7%;
+}
+
+#menuBtnImgS {
+    margin-right: 5px;
+}
+
+#menuBtnImgL {
+    margin-right: 5px;
+}
+
+#h1Question {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Qcontainer {
+    border: 2px solid black;
+    width: 95%;
+    height: 75%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+#questionArea {
+    background-color: #dadada;
+    height: 60%;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 1.5%;
+}
+
+#questionStatus {
+    margin-left: 2%;
+    margin-top: 1.1%;
+    border-radius: 5px;
+    background-color: #b1ffa5;
+}
+
+#questionType {
+    margin-left: 1%;
+    border-radius: 5px;
+    background-color: #b1ffa5;
+}
+
+#linkImg {
+    width: 50%;
+}
+
+#picImg {
+    width: 50%;
+}
+
+#linkBtn {
+    padding: 2px;
+    margin-left: 6%;
+}
+
+#picBtn {
+    padding: 2px;
+    margin-left: 2%;
+}
+
+#submitBtn {
+    margin-left: 39%;
+    border-radius: 5px;
+    background-color: #b1ffa5;
+    cursor: pointer;
+}
+
+#h1Dashboard {
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.DContainer {
+    border: 2px solid black;
+    width: 95%;
+    height: 87%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #b1ffa5;
+}
+
+.questHead {
+    background-color: #ffffff;
+    height: 10%;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: left;
+}
+
+#question {
+    margin-top: 0.5%;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#reply {
+    margin-top: 1%;
+    margin-left: 4%;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#response {
+    background-color: #ffffff;
+    height: 65%;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+#replyAccount {
+    width: 7%;
+    height: 20%;
+    float: left;
+    margin-left: 1%;
+}
+
+#replyAccountName {
+    margin-top: 0.3%;
+    margin-left: 1%;
+    width: 22%;
+    font-size: 18px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#replyAccountDetails {
+    margin-top: 0.3%;
+    width: 60%;
+    float: left;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.followBtn {
+    background-color: #ffffff;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+#responseFollowBtn {
+    height: 10%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
 }
