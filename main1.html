@@ -6,83 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="main1.css">
+    <link rel="stylesheet" href="/assets/css/main1.css">
 </head>
 
 <body>
-    <header class="head">
-        <img src="icons8-menu-25.png" alt="image not loaded" id="menuImg">
-        <h1 id="h1Heading"> QuikSolution</h1>
-        <img src="icons8-search-25 (1).png" alt="Search image not loaded" id="searchImg">
-        <input type="search" name="" id="searchTopic" placeholder=" Search Anything...">
-        <img src="icons8-notification-25 (2).png" alt="Notification Image not loaded" id="notificationImg">
-        <img src="icons8-administrator-male-25 (2).png" alt="Profile Image not loaded" id="profileImg">
-    </header>
-    <div id="menuBar">
-        <h1 id="h1Menu">MENU</h1><br><br><br>
-        <ul>
-            <li><a href="#"><img src="icons8-dashboard-25 (1).png" alt="No Image Loaded"
-                        class="menuImg">&nbsp;Dashboard</a>
-            </li>
-            <li><a href="#"><img src="icons8-starred-25.png" alt="No Image Loaded"
-                        class="menuImg">&nbsp;&nbsp;&nbsp;Starred&nbsp;&nbsp;&nbsp;</a></li>
-            <li><a href="#"><img src="icons8-draft-25.png" alt="No Image Loaded"
-                        class="menuImg">&nbsp;&nbsp;&nbsp;&nbsp;Drafts&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-            <li><a href="#"><img src="icons8-statistics-25.png" alt="No Image Loaded"
-                        class="menuImg">&nbsp;&nbsp;Statistics&nbsp;&nbsp;</a>
-            </li>
-            <li><a href="#"><img src="icons8-feedback-25.png" alt="No Image Loaded"
-                        class="menuImg">&nbsp;Feedbacks&nbsp;</a></li>
-            <li><a href="#"><img src="icons8-contact-us-25.png" alt="No Image Loaded" class="menuImg">Contact Us</a>
-            </li>
-        </ul>
-        <button class="menuBarBtn" id="menuSettingBtn"><img src="icons8-settings-25.png" alt="No Image Loaded"
-                id="menuBtnImgS"> Settings</button>
-        <button class="menuBarBtn"><img src="icons8-logout-25 (1).png" alt="No Image Loaded" id="menuBtnImgL">
-            Logout&nbsp;&nbsp;</button>
-    </div>
-    <div id="questionBox">
-        <h1 id="h1Question">Add Your Question</h1>
-        <div class="Qcontainer">
-            <textarea id="questionArea" cols="30" rows="50" placeholder="Ask Anything..."></textarea>
-            <select id="questionStatus">
-                <option selected>Public</option>
-                <option>Private</option>
-            </select>
-
-            <select id="questionType">
-                <option selected>Beginner</option>
-                <option>Intermediate</option>
-                <option>Master</option>
-            </select>
-
-            <button id="linkBtn"><img src="icons8-link-25.png" alt="No Image Loaded" id="linkImg"></button>
-            <button id="picBtn"><img src="icons8-image-25.png" alt="No Image Loaded" id="picImg"></button>
-            <button id="submitBtn">Submit</button>
-        </div>
-    </div>
-    <div id="rightSideBar">
-        <p>RightSideBAr ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur libero repudiandae eius
-            voluptatibus perferendis voluptate molestiae atque, corporis tempora optio ducimus eum animi architecto
-            magni minima eveniet velit! Exercitationem fugit doloribus, quaerat sit quia corporis culpa nemo voluptatum
-            explicabo veniam accusamus nulla non modi aperiam itaque! Incidunt ab delectus quod saepe officiis
-            consequatur nisi laboriosam sunt. Corrupti, perferendis voluptas.</p>
-    </div>
-    <div id="dashboard">
-        <h1 id="h1Dashboard">Dashboard</h1>
-        <div class="DContainer">
-            <div class="questHead">
-                <p id="question">How can I get Andrew Tate's Hustler's University for free?</p>
+    <!-- body container -->
+    <div class="main">
+        <header class="head">
+            <img src="/assets/img/icons8-dashboard-25 (1).png" alt="image not loaded" id="menuImg">
+            <h1 id="h1Heading"> QuikSolution</h1>
+            <img src="/assets/img/icons8-dashboard-25 (1).png" alt="Search image not loaded" id="searchImg">
+            <input type="search" name="" id="searchTopic" placeholder=" Search Anything...">
+            <img src="/assets/img/icons8-dashboard-25 (1).png" alt="Notification Image not loaded" id="notificationImg">
+            <img src="/assets/img/icons8-dashboard-25 (1).png" alt="Profile Image not loaded" id="profileImg">
+        </header>
+        <!-- main container -->
+        <div class="container">
+            <div class="left-container">
+                <div id="menuBar">
+                    <h1 id="h1Menu">MENU</h1>
+                    <ul>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Dashboard</a>
+                        </li>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Starred</a></li>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Drafts</a>
+                        </li>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Statistics</a>
+                        </li>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Feedbacks</a></li>
+                        <li><a href="#"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                    class="menuImg">Contact Us</a>
+                        </li>
+                    </ul>
+                    <button class="menuBarBtn" id="menuSettingBtn"><img src="/assets/img/icons8-dashboard-25 (1).png"
+                            alt="No Image Loaded" id="menuBtnImgS"> Settings</button>
+                    <button class="menuBarBtn"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                            id="menuBtnImgL">
+                        Logout</button>
+                </div>
             </div>
-            <p id="reply">Replied By:</p>
-            <div id="response">
-                <img src="icons8-circled-user-female-skin-type-3-80.png" alt="No Img Loaded" id="replyAccount">
-                <h1 id="replyAccountName">Sarah Johnson</h1>
-                <h1 id="replyAccountDetails">Associate Professor in Harward University</h1>
-                <button class="followBtn" id="responseFollowBtn">+Follow</button>
+
+            <!-- content container -->
+            <div class="content-container">
+                <div id="questionBox">
+                    <h1 id="h1Question">Add Your Question</h1>
+                    <div class="Qcontainer">
+                        <textarea id="questionArea" cols="30" rows="50" placeholder="Ask Anything..."></textarea>
+                        <select id="questionStatus">
+                            <option selected>Public</option>
+                            <option>Private</option>
+                        </select>
+
+                        <select id="questionType">
+                            <option selected>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Master</option>
+                        </select>
+
+                        <button id="linkBtn"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                id="linkImg"></button>
+                        <button id="picBtn"><img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Image Loaded"
+                                id="picImg"></button>
+                        <button id="submitBtn">Submit</button>
+                    </div>
+                </div>
+
+                <div id="dashboard">
+                    <h1 id="h1Dashboard">Dashboard</h1>
+                    <div class="DContainer">
+                        <div class="questHead">
+                            <p id="question">How can I get Andrew Tate's Hustler's University for free?</p>
+                        </div>
+                        <p id="reply">Replied By:</p>
+                        <div id="response">
+                            <img src="/assets/img/icons8-dashboard-25 (1).png" alt="No Img Loaded" id="replyAccount">
+                            <h1 id="replyAccountName">Sarah Johnson</h1>
+                            <h1 id="replyAccountDetails">Associate Professor in Harward University</h1>
+                            <button class="followBtn" id="responseFollowBtn">+Follow</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- right-container -->
+            <div class="right-container">
+                <div id="rightSideBar">
+                    <p>RightSideBAr ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur libero
+                        repudiandae eius
+                        voluptatibus perferendis voluptate molestiae atque, corporis tempora optio ducimus eum animi
+                        architecto
+                        magni minima eveniet velit! Exercitationem fugit doloribus, quaerat sit quia corporis culpa nemo
+                        voluptatum
+                        explicabo veniam accusamus nulla non modi aperiam itaque! Incidunt ab delectus quod saepe
+                        officiis
+                        consequatur nisi laboriosam sunt. Corrupti, perferendis voluptas.</p>
+                </div>
             </div>
         </div>
-    </div>
+
+    </div> <!-- end of .main -->
 
 </body>
 
