@@ -271,8 +271,78 @@ body {
 }
 
 .body-lower-container {
-    height: 220px;
+    height: 230px;
+}
 
+.body-lower-container-profile {
+    height: 45px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid black;
+
+}
+
+.profile-container-left {
+    width: 50%;
+    float: left;
+    height: 45px;
+}
+
+.profile-container-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 45px;
+}
+
+
+
+.img-profile {
+    width: 10%;
+    float: left;
+    height: 35px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background: url('/assets/img/icons8-menu-25.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-container {
+    width: 70%;
+    float: left;
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+.profile-name {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.profile-description {
+    font-size: 12px;
+}
+
+.profile-followBtn {
+    background-color: #ffffff;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    right: 380px;
+}
+
+.body-lower-btn-container {
+    margin: 5px 15px 0px 15px;
+    background-color: rgb(209, 255, 162);
+}
+
+
+.btn-dashboard {
+    border-radius: 10px;
+    margin-right: 13px;
 }
 
 
