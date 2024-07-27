@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/default.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/index_color.css">
 </head>
 
 <body>
@@ -19,42 +20,47 @@
                 <h1 class="headerHeading">QuikSolution</h1>
             </div>
             <div class="searchImg-searchInput">
-                <img src="/assets/img/icons8-menu-25.png" alt="Search image not loaded" class="headerImg">
+                <img src="/assets/img/icons8-search-25 (1).png" alt="Search image not loaded" class="headerImg">
                 <input type="search" name="" placeholder=" Search Anything..." class="searchInput">
             </div>
             <div class="notificationImg-profileImg">
-                <img src="/assets/img/icons8-menu-25.png" alt="Notification Image not loaded" class="">
-                <img src="/assets/img/icons8-menu-25.png" alt="Profile Image not loaded" class="headerImg">
+                <img src="/assets/img/icons8-notification-25 (2).png" alt="Notification Image not loaded" class="">
+                <img src="/assets/img/icons8-administrator-male-25 (2).png" alt="Profile Image not loaded"
+                    class="headerImg">
             </div>
         </header>
 
         <!-- creating left container -->
         <div class="left-container">
             <div class="left-container-heading">Menu</div>
-            <div class="menu-list">
-                <img src="assets/img/icons8-menu-25.png" alt="no image loaded" class="menu-list-item-img">
+            <div class="menu-list" style="border-top: 2px solid black;">
+                <img src="assets/img/icons8-dashboard-25 (1).png" alt="no image loaded" class="menu-list-item-img">
                 <span class="menu-list-item-title">Dashboard</span>
             </div>
             <div class="menu-list">
-                <img src="assets/img/icons8-menu-25.png" alt="no image loaded" class="menu-list-item-img">
-                <span class="menu-list-item-title">Dashboard</span>
+                <img src="assets/img/icons8-draft-25.png" alt="no image loaded" class="menu-list-item-img">
+                <span class="menu-list-item-title">Drafts</span>
             </div>
             <div class="menu-list">
-                <img src="assets/img/icons8-menu-25.png" alt="no image loaded" class="menu-list-item-img">
-                <span class="menu-list-item-title">Dashboard</span>
+                <img src="assets/img/icons8-contact-us-25.png" alt="no image loaded" class="menu-list-item-img">
+                <span class="menu-list-item-title">Contact Us</span>
             </div>
             <div class="menu-list">
-                <img src="assets/img/icons8-menu-25.png" alt="no image loaded" class="menu-list-item-img">
-                <span class="menu-list-item-title">Dashboard</span>
+                <img src="assets/img/icons8-feedback-25.png" alt="no image loaded" class="menu-list-item-img">
+                <span class="menu-list-item-title">Feedbacks</span>
             </div>
             <div class="menu-list">
-                <img src="assets/img/icons8-menu-25.png" alt="no image loaded" class="menu-list-item-img">
-                <span class="menu-list-item-title">Dashboard</span>
+                <img src="assets/img/icons8-starred-25.png" alt="no image loaded" class="menu-list-item-img">
+                <span class="menu-list-item-title">Starred</span>
+            </div>
+            <div class="menu-list">
+                <img src="assets/img/icons8-statistics-25.png" alt="no image loaded" class="menu-list-item-img">
+                <span class="menu-list-item-title">Statistics</span>
             </div>
             <div class="menu-list-btns-container">
-                <button class="menu-list-btns"><img src="/assets/img/icons8-menu-25.png" alt="no image"><span
+                <button class="menu-list-btns"><img src="/assets/img/icons8-settings-25.png" alt="no image"><span
                         class="menu-btns-text">Settings</span></button>
-                <button class="menu-list-btns"><img src="/assets/img/icons8-menu-25.png" alt="no image"><span
+                <button class="menu-list-btns"><img src="/assets/img/icons8-logout-25 (1).png" alt="no image"><span
                         class="menu-btns-text">Log out</span></button>
             </div>
         </div>
@@ -64,24 +70,25 @@
 
             <!-- upper container -->
             <div class="upper-body-container">
-                <div class="body-container-heading">Dashboard</div>
-                <div class="question-area"><textarea cols="30" rows="50" placeholder="Ask Anything..."></textarea></div>
+                <div class="body-container-heading">Write your Question Here!</div>
+                <div class="question-area"><textarea cols="30" rows="50" placeholder="  Ask Anything..."></textarea>
+                </div>
                 <div class="question-btns-container">
-                    <select class="question-select-btns">
+                    <select class="question-select-btns" style="background-color: rgb(0, 241, 48);">
                         <option selected>Public</option>
                         <option>Private</option>
                     </select>
-                    <select class="question-select-btns">
+                    <select class="question-select-btns" style="background-color: rgb(0, 241, 48);">
                         <option selected>Beginner</option>
                         <option>Intermediate</option>
                         <option>Master</option>
                     </select>
                     <div class="question-link-btns">
-                        <button class="question-btns"><img src="/assets/img/icons8-menu-25.png">
-                            <button class="question-btns"><img src="/assets/img/icons8-menu-25.png">
+                        <button class="question-btns"><img src="/assets/img/icons8-link-25.png">
+                            <button class="question-btns"><img src="/assets/img/icons8-image-25.png">
                     </div>
 
-                    <button class="question-submit-btn">Submit</button>
+                    <button class="question-submit-btn" style="background-color: rgb(0, 241, 48);">Submit</button>
                 </div>
             </div>
 
@@ -89,7 +96,9 @@
             <div class="lower-middle-container">
                 <div class="body-container-heading">Dashboard</div>
                 <div class="body-middle-container">
-                    <div class="body-upper-container"></div>
+                    <div class="body-upper-container">
+                        <p> How can I get Andrew Tate's Hustler's University for free?</p>
+                    </div>
                     <p>Replied By:</p>
                     <div class="body-lower-container">
                         <div class="body-lower-container-profile">
@@ -104,18 +113,28 @@
                                 <button class="profile-followBtn">+Follow</button>
                             </div>
                         </div>
+                        <div class="answer">
+                            <h1 class="answer-heading">Answer:</h1>Hustlers University 2.0 is operated through discord
+                            and separate private channels are created for copywriting, freelancing, affiliate marketing,
+                            and crypto-stock
+                            trading. Professors share infographics, videos, and live chats for teaching. Now the main
+                            answer, Hustlers University 2.0 is not worth the money being charged, but the luxury
+                            lifestyle shown by Andrew Tate made people purchase it. You can learn all these skills
+                            through YouTube videos and blogs without spending anything. So one doesn't need to spend
+                            that much money. I have shared a complete review, you can read it and know the reality.
+                        </div>
                     </div>
                     <div class="body-lower-btn-container"><button class="btn-dashboard">Upvote</button><button
-                            class="btn-dashboard">Upvote</button><button class="btn-dashboard">Upvote</button></div>
+                            class="btn-dashboard">Downvote</button><button class="btn-dashboard">Comment</button></div>
 
                 </div>
             </div>
         </div>
 
-        <!-- creating the right upper container -->
+        <!-- creating the right container -->
         <div class="right-container">
             <div class="upper-right-container">
-                <div class="upper-right-heading">Dashboard</div>
+                <div class="upper-right-heading">Discover Communities</div>
                 <div class="upper-right-body-container">
                     <div class="right-body-container"><input type="search" name="" placeholder=" Search Anything..."
                             class="right-body-searchInput"></div>
@@ -123,7 +142,20 @@
 
 
                     <div class="content-right-body-container">
-                        <div class="img-community"></div>
+                        <div class="img-community"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
+                        </div>
+                        <div class="community-container">
+                            <p class="community-name">Motivational Speeches</p>
+                            <p class="community-description">Here we have to discuss all about
+                                Motivational lectures ...</p>
+                        </div>
+                    </div>
+                    <div class="content-right-body-container"
+                        style="border-top: 1px solid black; border-bottom: 1px solid black;">
+                        <div class="img-community"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
+                        </div>
                         <div class="community-container">
                             <p class="community-name">Motivational Speeches</p>
                             <p class="community-description">Here we have to discuss all about
@@ -131,15 +163,9 @@
                         </div>
                     </div>
                     <div class="content-right-body-container">
-                        <div class="img-community"></div>
-                        <div class="community-container">
-                            <p class="community-name">Motivational Speeches</p>
-                            <p class="community-description">Here we have to discuss all about
-                                Motivational lectures ...</p>
+                        <div class="img-community"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
                         </div>
-                    </div>
-                    <div class="content-right-body-container">
-                        <div class="img-community"></div>
                         <div class="community-container">
                             <p class="community-name">Motivational Speeches</p>
                             <p class="community-description">Here we have to discuss all about
@@ -155,10 +181,12 @@
 
             <!-- creating the right lower container -->
             <div class="lower-right-container">
-                <div class="lower-right-heading">Dashboard</div>
+                <div class="lower-right-heading">People May you Know</div>
                 <div class="lower-right-item-container">
                     <div class="lower-right-body-containers" id="container1">
-                        <div class="friend-img"></div>
+                        <div class="friend-img"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
+                        </div>
                         <div class="friend-name">
                             <p>Harry Larry</p>
                         </div>
@@ -167,7 +195,9 @@
                         </div>
                     </div>
                     <div class="lower-right-body-containers" id="container1">
-                        <div class="friend-img"></div>
+                        <div class="friend-img"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
+                        </div>
                         <div class="friend-name">
                             <p>Harry Larry</p>
                         </div>
@@ -176,7 +206,9 @@
                         </div>
                     </div>
                     <div class="lower-right-body-containers" id="container1">
-                        <div class="friend-img"></div>
+                        <div class="friend-img"
+                            style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;">
+                        </div>
                         <div class="friend-name">
                             <p>Harry Larry</p>
                         </div>
@@ -185,12 +217,11 @@
                         </div>
                     </div>
                     <div class="lower-right-body-containers" id="container1">
-                        <div class="friend-img"></div>
-                        <div class="friend-name">
-                            <p>Harry Larry</p>
+                        <div class="friend-img" style="background: url(/assets/img/icons8-circled-user-female-skin-type-3-80.png); background-repeat: no-repeat; background-size: cover;
+                            width: 60%; height: 60px;">
                         </div>
-                        <div class="follow-btn">
-                            <button class="followBtn">+Follow</button>
+                        <div class="friend-name">
+                            <p>View All</p>
                         </div>
                     </div>
 
@@ -198,7 +229,6 @@
             </div>
 
         </div>
-
 
 
     </div>

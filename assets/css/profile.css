@@ -1,5 +1,11 @@
+body {
+    background-color: green;
+}
+
+
 /* creating the Head containers */
 .header {
+    background-color: rgb(160, 246, 217);
     height: 40px;
     position: relative;
 }
@@ -36,7 +42,7 @@
 
 .searchInput {
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     height: 23px;
 }
 
@@ -87,12 +93,11 @@
 
 /* creating the left container */
 .left-container {
+    background-color: coral;
     width: 15%;
     float: left;
     height: 601px;
     position: relative;
-    box-sizing: border-box;
-    border-right: 2px solid black;
 }
 
 .left-container-heading {
@@ -103,28 +108,19 @@
 }
 
 .menu-list {
+    background-color: crimson;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
     height: 40px;
-    transition: all;
-    transition-duration: 0.5s;
-    border-bottom: 2px solid black;
-}
-
-.menu-list:hover .menu-list-item-title {
-    margin-left: 30px;
-
+    margin-bottom: 5px;
 }
 
 .menu-list-item-title {
     font-size: 1.3rem;
     text-align: center;
     margin-left: 10px;
-    transition: all;
-    transition-duration: 0.5s;
-
 }
 
 .menu-list-item-img {
@@ -162,6 +158,7 @@
 /* creating the body container */
 
 .body-container {
+    background-color: rgb(46, 77, 255);
     width: 60%;
     float: left;
     height: 601px;
@@ -170,17 +167,19 @@
 /* upper body container */
 
 .upper-body-container {
+    background-color: darkcyan;
     height: 210px;
-    border-bottom: 2px solid black;
 }
 
 .body-container-heading {
+    background-color: cornflowerblue;
     font-size: 1.7rem;
     margin-top: 5px;
     margin-left: 15px;
 }
 
 .question-area {
+    background-color: #dadada;
     height: 120px;
     width: 95%;
     margin-left: 2%;
@@ -195,6 +194,7 @@
 }
 
 .question-btns-container {
+    background-color: #ff0000;
     margin-top: 0.5%;
     margin-bottom: 3%;
     height: 40px;
@@ -212,6 +212,7 @@
 }
 
 .question-link-btns {
+    background-color: #ffa7a7;
     display: flex;
     align-items: center;
     position: absolute;
@@ -241,6 +242,7 @@
 
 /* lower body container */
 .body-middle-container {
+    background-color: rgb(131, 255, 94);
     height: 340px;
     border-radius: 15px;
     overflow: auto;
@@ -249,7 +251,7 @@
 }
 
 .body-middle-container p {
-    margin-left: 15px;
+    margin-left: 23px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: bold;
@@ -257,16 +259,11 @@
 
 .body-upper-container {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.body-upper-container p {
-    font-size: 1.3rem;
 }
 
 .body-upper-container,
 .body-lower-container {
+    background-color: rgb(255, 255, 255);
     height: 40px;
     border-radius: 15px;
     margin-left: 15px;
@@ -280,6 +277,7 @@
 .body-lower-container-profile {
     height: 45px;
     border-radius: 15px 15px 0px 0px;
+    border-bottom: 2px solid black;
 
 }
 
@@ -305,7 +303,7 @@
     height: 35px;
     margin-top: 3px;
     margin-left: 10px;
-    background: url('/assets/img/icons8-administrator-male-25.png');
+    background: url('/assets/img/icons8-menu-25.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -327,26 +325,18 @@
 }
 
 .profile-followBtn {
+    background-color: #ffffff;
+    border: 1px solid blue;
     border-radius: 10px;
+    color: blue;
     cursor: pointer;
     position: absolute;
     right: 380px;
 }
 
-.answer-heading {
-    display: inline;
-    margin-right: 5px;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-
-.answer {
-    padding: 6px;
-    font-size: 1.1rem;
-}
-
 .body-lower-btn-container {
     margin: 5px 15px 0px 15px;
+    background-color: rgb(209, 255, 162);
 }
 
 
@@ -429,141 +419,9 @@
 
 /* creating the right container */
 .right-container {
+    background-color: rgb(220, 188, 188);
     float: right;
     width: 25%;
     height: 601px;
-    border-left: 2px solid black;
-    box-sizing: border-box;
 }
 
-.upper-right-container {
-    border-bottom: 2px solid black;
-}
-
-.upper-right-container,
-.lower-right-container {
-    height: 300.5px;
-}
-
-.upper-right-heading,
-.lower-right-heading {
-    font-size: 1.7rem;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-
-.upper-right-body-container {
-    height: 80%;
-    margin-top: 10px;
-    width: 90%;
-    margin-left: 5%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.right-body-searchInput {
-    border-radius: 20px;
-    height: 30px;
-    margin-top: 5px;
-    margin-left: 10px;
-    padding: 10px;
-    width: 90%;
-    display: block;
-}
-
-.right-body-container {
-    height: 40px;
-    width: 90%;
-    margin-left: 5%;
-    display: block;
-    margin-bottom: -3%;
-}
-
-.content-right-body-container {
-    height: 55px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.img-community {
-    width: 12%;
-    float: left;
-    height: 35px;
-    margin-left: 10px;
-}
-
-.community-container {
-    width: 70%;
-    float: left;
-    margin-left: 15px;
-}
-
-.community-name {
-    font-weight: bolder;
-    font-size: 12px;
-}
-
-.community-description {
-    font-size: 12px;
-}
-
-.view-all-communities {
-    font-size: 17px;
-}
-
-.view-all-communities p {
-    margin-top: 3px;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline;
-}
-
-
-/* creating lower right container */
-
-.lower-right-item-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.lower-right-body-containers {
-    width: 30%;
-    height: 110px;
-    margin: 13px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-
-.friend-img {
-    width: 50%;
-    float: left;
-    height: 50px;
-    margin-bottom: 5px;
-}
-
-.friend-name {
-    font-weight: bold;
-}
-
-.lower-right-body-containers {
-    border: 1px solid gray;
-}
-
-.follow-btn {
-    margin-top: 8px
-}
-
-.followBtn {
-    border-radius: 10px;
-    cursor: pointer;
-}

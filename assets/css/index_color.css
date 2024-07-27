@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* creating the Head containers */
+.header {
+    background-color: rgb(0, 241, 48);
+}
+
+
+
+/* creating the left container */
+.left-container {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.menu-list {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-list:hover {
+    color: rgb(255, 247, 0);
+    background-color: rgb(88, 168, 238);
+}
+
+
+
+/* creating the body container */
+
+.body-container {
+    background-color: rgb(255, 255, 255);
+}
+
+/* upper body container */
+
+.upper-body-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.body-container-heading {
+    background-color: rgb(255, 255, 255);
+}
+
+.question-area {
+    background-color: #ffffff;
+}
+
+.question-btns-container {
+    background-color: #ffffff;
+}
+
+.question-link-btns {
+    background-color: #ffffff;
+}
+
+
+/* lower body container */
+.body-middle-container {
+    background-color: rgb(131, 255, 94);
+}
+
+.body-upper-container,
+.body-lower-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.body-lower-container-profile {
+    border-bottom: 2px solid black;
+}
+
+.profile-followBtn {
+    background-color: #ffffff;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.body-lower-btn-container {
+    background-color: rgb(209, 255, 162);
+}
+
+
+.right-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.upper-right-container,
+.lower-right-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.upper-right-heading,
+.lower-right-heading {
+    background-color: rgb(255, 255, 255);
+}
+
+.upper-right-body-container {
+    background-color: rgb(105, 255, 115);
+}
+
+
+.right-body-container {
+    background-color: rgb(105, 255, 115);
+}
+
+.content-right-body-container {
+    background-color: #ffffff;
+}
+
+.view-all-communities {
+    border-top: 1px solid black;
+}
+
+/* creating lower right container */
+.lower-right-container {
+    background-color: #ffffff;
+}
+
+.lower-right-item-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.lower-right-body-containers {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.followBtn {
+    background-color: #ffffff;
+    border: 1px solid blue;
+    color: blue;
+}
